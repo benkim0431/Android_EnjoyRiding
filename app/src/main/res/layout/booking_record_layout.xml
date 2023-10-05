@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/txtBikeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:theme="@style/Theme.EnjoyRiding.ContentTextBlack"
+        android:background="@drawable/border_white_semi_right"/>
+
+    <TextView
+        android:id="@+id/txtBookingHour"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:theme="@style/Theme.EnjoyRiding.ContentTextBlack"
+        android:background="@drawable/border_white_semi_left"/>
+
+    <ImageButton
+        android:id="@+id/btnCancelBooking"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/cancel_icon"
+        android:background="@drawable/border_cancel_button"
+        />
+
+</LinearLayout>

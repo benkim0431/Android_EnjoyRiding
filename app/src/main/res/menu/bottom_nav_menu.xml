@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bottom_search"
+        android:title="Find"
+        android:icon="@drawable/find_bike_icon"/>
+
+    <item
+        android:id="@+id/nav_bottom_account"
+        android:title="Account"
+        android:icon="@drawable/account_icon"/>
+</menu>

@@ -1,0 +1,106 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EnjoyRiding" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.EnjoyRiding.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.EnjoyRiding.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.EnjoyRiding.ActivityBackgroundColor">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.GuideBackgroudColor">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.TitleText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.DetailTitleText">
+        <item name="android:textColor">#F3C317</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.DetailTitleSubText">
+        <item name="android:textColor">#C5B790</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.DescriptionText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.ContentText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.ContentTextBlack">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.EditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.SearchText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.LocationButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">8dp</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.CancelButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="Theme.EnjoyRiding.LinkText">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
